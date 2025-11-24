@@ -136,3 +136,4 @@ cython_debug/
 # Editors
 .vscode/
 .idea/
+/data.csv
