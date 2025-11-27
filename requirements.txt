@@ -7,3 +7,21 @@ joblib
 datasets
 dvc
 dagshub
+
+# Data Handling
+pandas
+numpy
+
+# Machine Learning & NLP
+scikit-learn
+torch               # Required for BERT
+transformers        # Hugging Face models
+
+# MLOps & Tools
+
+mlflow              # For experiment tracking
+dagshub             # To log metrics to Dagshub
+
+# Development
+jupyter             # For your notebooks
+ipykernel
