@@ -1,0 +1,6 @@
+outs:
+- md5: abb3fb3dee8729501c93cfdf3b682306.dir
+  size: 268855684
+  nfiles: 6
+  hash: md5
+  path: distilbert-intent-classifier
