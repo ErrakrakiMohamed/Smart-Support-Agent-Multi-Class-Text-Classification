@@ -94,3 +94,18 @@ Smart-Support-Agent/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project Documentation
 
+👨‍💻 Usage
+Open the Streamlit App.
+
+Type a customer complaint (e.g., "I have not received my refund yet").
+
+Click "Classify Intent".
+
+The AI will display the predicted category (e.g., payment_issue) and its confidence score.
+
+📜 Credits
+Dataset: Bitext (Hugging Face).
+
+Tools: DagsHub, DVC, Streamlit.
+
+Author: Mohamed Errakraki
