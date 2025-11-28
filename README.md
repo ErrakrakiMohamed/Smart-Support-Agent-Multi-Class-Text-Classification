@@ -55,7 +55,8 @@ Since large files are stored in DVC, simply cloning the repo is not enough. Foll
 ```bash
 git clone [https://github.com/YourUsername/Smart-Support-Agent.git](https://github.com/ErrakrakiMohamed/Smart-Support-Agent-Multi-Class-Text-Classification.git)
 cd Smart-Support-Agent
-2. Create Virtual Environment
+
+### 2. Create Virtual Environment
 
 python -m venv venv
 # Windows:
@@ -94,3 +95,18 @@ Smart-Support-Agent/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project Documentation
 
+👨‍💻 Usage
+Open the Streamlit App.
+
+Type a customer complaint (e.g., "I have not received my refund yet").
+
+Click "Classify Intent".
+
+The AI will display the predicted category (e.g., payment_issue) and its confidence score.
+
+📜 Credits
+Dataset: Bitext (Hugging Face).
+
+Tools: DagsHub, DVC, Streamlit.
+
+Author: Mohamed Errakraki
