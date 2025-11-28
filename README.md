@@ -58,22 +58,31 @@ cd Smart-Support-Agent
 
 ### 2. Create Virtual Environment
 
+```bash
 python -m venv venv
 # Windows:
 .\venv\Scripts\activate
 # Mac/Linux:
 source venv/bin/activate
+```
 
-3. Install Dependencies
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Pull Data & Models 
+### 4. Pull Data & Models 
 
+```bash
 dvc pull
+```
 
-5. Run the Streamlit App
+### 5. Run the Streamlit App
 
+```bash
 streamlit run app.py
+```
 
 📂 Project Structure
 
