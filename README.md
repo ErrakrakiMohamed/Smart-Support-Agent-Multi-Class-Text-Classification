@@ -85,6 +85,7 @@ streamlit run app.py
 ---
 📂 Project Structure
 
+```bash
 Smart-Support-Agent/
 ├── .dvc/                 # DVC configuration
 ├── data/                 # Data folder (Tracked by DVC)
@@ -102,18 +103,19 @@ Smart-Support-Agent/
 ├── app.py                # Streamlit Application
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project Documentation
-
+```
 ---   
 
 👨‍💻 Usage
-Open the Streamlit App.
+1. Open the Streamlit App.
 
-Type a customer complaint (e.g., "I have not received my refund yet").
+2. Type a customer complaint (e.g., "I have not received my refund yet").
 
-Click "Classify Intent".
+3. Click "Classify Intent".
 
-The AI will display the predicted category (e.g., payment_issue) and its confidence score.
+4. The AI will display the predicted category (e.g., payment_issue) and its confidence score.
 
+---
 📜 Credits
 Dataset: Bitext (Hugging Face).
 
