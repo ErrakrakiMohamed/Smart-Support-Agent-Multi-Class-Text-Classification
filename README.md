@@ -55,9 +55,9 @@ Since large files are stored in DVC, simply cloning the repo is not enough. Foll
 ```bash
 git clone [https://github.com/YourUsername/Smart-Support-Agent.git](https://github.com/ErrakrakiMohamed/Smart-Support-Agent-Multi-Class-Text-Classification.git)
 cd Smart-Support-Agent
+```
 
 ### 2. Create Virtual Environment
-
 ```bash
 python -m venv venv
 # Windows:
@@ -67,13 +67,11 @@ source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Pull Data & Models 
-
+### 4. Pull Data & Models
 ```bash
 dvc pull
 ```
@@ -84,6 +82,7 @@ dvc pull
 streamlit run app.py
 ```
 
+---
 📂 Project Structure
 
 Smart-Support-Agent/
@@ -104,6 +103,8 @@ Smart-Support-Agent/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project Documentation
 
+---   
+
 👨‍💻 Usage
 Open the Streamlit App.
 
@@ -119,3 +120,4 @@ Dataset: Bitext (Hugging Face).
 Tools: DagsHub, DVC, Streamlit.
 
 Author: Mohamed Errakraki
+
